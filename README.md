@@ -1,9 +1,9 @@
 # Kraken
 
-Kraken - Plataforma de Programação Competitiva
+Kraken - Plataforma de Programação Competitiva <br>
 Cópia proibida!
 
-Autoria: 
-  Henrique Campos Junqueira
-  Hugo de Angelis Carmo
-  Rafael Coli Alves
+Autoria: <br>
+  Henrique Campos Junqueira<br>
+  Hugo de Angelis Carmo<br>
+  Rafael Coli Alves<br>
