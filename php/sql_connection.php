@@ -12,17 +12,17 @@ if ($conn->connect_error) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "SELECT id, firstname, lastname FROM MyGuests";
+$sql = "SELECT * FROM Aluno";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-      echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+      echo "Nome: " . $row["Nome_Aluno"]. " - Email: " . $row["Email"]. " - Data de Nascimento: " . $row["Data_Nascimento"]. " - ID Aluno: " . $row["ID_Aluno"] . " - Ranking: " . $row["Ranking"] . "<br>";
     }
   } else {
     echo "0 results";
   }
-  
+
 $conn->close();
 ?>
