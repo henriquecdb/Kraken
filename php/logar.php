@@ -22,7 +22,7 @@ $result = $conn->query($sql);
 
 
 if ($result->num_rows > 0) {
-    header("Location: ../pages/page.html");
+    header("Location: ../pages/page.php");
     $conn->close();
     exit();
     //echo "New record created successfully";
