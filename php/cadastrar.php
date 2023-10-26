@@ -17,7 +17,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO Aluno VALUES ('$nome', '$email', 16/06/2001, 105, 0, '$senha')";
+$sql = "INSERT INTO Aluno VALUES ('$nome', '$email', 160, 0, '$senha')";
 $result = $conn->query($sql);
 $conn->close();
 
