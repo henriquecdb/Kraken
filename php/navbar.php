@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="page.html">Kraken</a>
+        <a class="navbar-brand" href="page.php">Kraken</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -24,7 +24,7 @@
               <a class="nav-link" href="contest.php">Contests</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <form class="d-flex" role="search" action="login.php">
             <button class="btn btn-outline-success" type="submit">Login</button>
           </form>
         </div>
