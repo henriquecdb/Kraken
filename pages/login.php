@@ -32,7 +32,7 @@
           <span>Use sua conta</span>
           <input type="email" placeholder="Email" name="emailLogin" id="emailLogin" />
           <input type="password" placeholder="Password" name="passwdLogin" id="passwdLogin" />
-          <a href="#">Esqueceu a senha?</a>
+          <a href="forget.php">Esqueceu a senha?</a>
           <button type="submit" >Entrar</button>
         </form>
       </div>
