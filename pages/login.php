@@ -1,3 +1,13 @@
+<?php
+  session_start();
+  if (isset($_SESSION['message'])) {
+      $color = ($_SESSION['msg_type'] == 'success') ? 'green' : 'red';
+      echo '<span style="color: ' . $color . ' !important; margin: 5px; font-weight: bold">' . $_SESSION['message'] . '</span>';
+      unset($_SESSION['message']);
+      unset($_SESSION['msg_type']);
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -22,7 +32,7 @@
           <input type="text" placeholder="Name" name="nameCadastro" id="nameCadastro" />
           <input type="email" placeholder="Email" name="emailCadastro" id="emailCadastro" />
           <input type="password" placeholder="Password" name="passwdCadastro" id="passwdCadastro" />
-          <button type="submit" >Cadastrar</button>
+          <button type="submit">Cadastrar</button>
         </form>
       </div>
 
@@ -33,7 +43,10 @@
           <input type="email" placeholder="Email" name="emailLogin" id="emailLogin" />
           <input type="password" placeholder="Password" name="passwdLogin" id="passwdLogin" />
           <a href="forget.php">Esqueceu a senha?</a>
-          <button type="submit" >Entrar</button>
+          <button type="submit">Entrar</button>
+          <span style="color: red !important; margin: 5px; font-weight: bold; display: <?php echo isset($_GET['erroLogin']) ? 'block' : 'none'; ?>">
+            Falha ao realizar o login!
+          </span>
         </form>
       </div>
 
