@@ -28,13 +28,14 @@
               </tr>
             </thead>
             <tbody>
-              <!-- Adicione mais linhas conforme necessário -->
+            <?php include "../php/ranking.php" ?>              
+            <!-- Adicione mais linhas conforme necessário 
               <tr>
                 <th scope="row">1</th>
                 <td>Usuário Exemplo 1</td>
                 <td>1500</td>
               </tr>
-              <!-- ... -->
+               ... -->
             </tbody>
           </table>
         </div>
