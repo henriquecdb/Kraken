@@ -23,6 +23,9 @@
             <li class="nav-item">
               <a class="nav-link" href="contest.php">Contests</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ranking.php">Ranking</a>
+            </li>
           </ul>
           <form class="d-flex" role="search" action="/search.php">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
