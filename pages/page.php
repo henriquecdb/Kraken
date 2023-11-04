@@ -40,10 +40,10 @@
             <div class="card" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Data Structure</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Explore e aprimore suas habilidades em estruturas de dados por meio dos seguintes exercícios. 
+                Esses desafios abordam conceitos fundamentais, incluindo árvores, 
+                listas encadeadas e operações básicas de busca e ordenação. 
                 </p>
                 <a href="#" class="card-link">Data Structure</a>
               </div>
@@ -54,10 +54,10 @@
             <div class="card" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Graphs</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Desenvolva sua proficiência em grafos através dos desafios propostos nesta seção. 
+                Estes exercícios englobam conceitos essenciais, como representação de grafos, 
+                busca em largura e busca em profundidade, entre outros.
                 </p>
                 <a href="#" class="card-link">Graphs</a>
               </div>
@@ -68,7 +68,6 @@
             <div class="card" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Math</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -82,7 +81,6 @@
             <div class="card" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Algo Techniques</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -96,7 +94,6 @@
             <div class="card" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Algo Techniques</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -110,7 +107,6 @@
             <div class="card" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Algo Techniques</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.

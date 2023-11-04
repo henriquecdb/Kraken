@@ -30,14 +30,7 @@
               </tr>
             </thead>
             <tbody>
-              <?php include "../php/contest.php" ?>
-              <!-- Adicione mais linhas conforme necessário 
-              <tr>
-                <th scope="row">1</th>
-                <td>Contest Exemplo 1</td>
-                <td>10:00, 01/01/2024</td>
-                <td>2 horas</td>
-                <td>Usuário Exemplo</td>-->
+                <?php include "../php/excluir_competicao.php" ?>
               </tr> 
             </tbody>
           </table>
