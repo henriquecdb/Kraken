@@ -12,11 +12,17 @@ if ($conn->connect_error) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-// Lógica para filtrar por categoria
+// Filtro por categoria
 $whereClause = "";
 if (isset($_GET['categoria']) && !empty($_GET['categoria'])) {
     $categoriaFiltrada = $_GET['categoria'];
     $whereClause = "WHERE Categoria.Tipo = '$categoriaFiltrada'";
+}
+
+// Filtro por nome da questão
+if (isset($_GET['nomeQuestao']) && !empty($_GET['nomeQuestao'])) {
+    $nomeQuestao = $_GET['nomeQuestao'];
+    $whereClause .= (empty($whereClause) ? "WHERE" : " AND") . " Questao.Titulo LIKE '%$nomeQuestao%'";
 }
 
 $sql = "SELECT Questao.ID_Questao, Questao.Titulo, Categoria.Tipo, Questao.Pontuacao 
