@@ -13,10 +13,10 @@
   <!-- Navbar -->
   <?php include "../php/navbar.php" ?>
 
-  <!-- Filtro por Categoria -->
+  <!-- Filtro por Categoria e Busca por Nome -->
   <div class="container mt-3">
-    <form action="problemset.php" method="get">
-      <label for="categoria">Filtrar por Categoria:</label>
+    <form action="problemset.php" method="get" class="d-flex justify-content-end">
+      <label for="categoria" class="me-2">Filtrar por Categoria:</label>
       <select name="categoria" id="categoria">
         <option value="">Todas as Categorias</option>
         <option value="Iniciante">Iniciante</option>
@@ -27,8 +27,12 @@
         <option value="SQL">SQL</option>
         <option value="Matemática">Matemática</option>
         <!-- Adicione outras opções de categoria aqui -->
-      <?php include "../php/categorias.php"; ?>
       </select>
+
+      <!-- Campo buscar por nome -->
+      <label for="nomeQuestao" class="me-2">Buscar por Nome:</label>
+      <input type="text" name="nomeQuestao" id="nomeQuestao" class="form-control me-2" placeholder="Digite o nome da questão">
+
       <button type="submit" class="btn btn-primary">Filtrar</button>
     </form>
   </div>
@@ -42,7 +46,7 @@
           <th scope="col">ID da Questão</th>
           <th scope="col">Nome da Questão</th>
           <th scope="col">Assunto</th>
-          <th scope="col">Pontuacao da Questao</th>
+          <th scope="col">Pontuação da Questão</th>
           <th scope="col">Nível da Questão</th>
         </tr>
       </thead>
@@ -50,8 +54,9 @@
         <?php include "../php/problemset.php" ?>
       </tbody>
     </table>
+    <button type="button" class="btn btn-primary">Cadastrar Questão</button>
   </div>
-
+ 
   <!-- footer -->
   <?php include "../php/footer.php" ?>
 
