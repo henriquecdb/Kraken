@@ -75,7 +75,7 @@ if (isset($_GET['id']) && $_GET['id'] !== null) {
 
                 <button type="button" class="btn btn-primary">Submeter Solução</button>
 
-                <form action="delete_question.php" method="post">
+                <form action="../php/delete_question.php" method="post">
                 <input type="hidden" name="id" value="<?php echo $idQuestao; ?>">
                 <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja deletar esta questão?')">Deletar Questão</button>
             </form>
