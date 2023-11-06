@@ -38,7 +38,7 @@ if ($result->num_rows > 0) {
         <tr>
             <td><?php echo $questao['ID_Questao']; ?></td>
             <td>
-                <a href="unic.php?id=<?php echo $questao['ID_Questao']; ?>">
+                <a href="problem.php?id=<?php echo $questao['ID_Questao']; ?>">
                     <?php echo $questao['Titulo']; 
                     ?>
                 </a>
