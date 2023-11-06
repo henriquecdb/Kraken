@@ -81,6 +81,9 @@ if (isset($_GET['id']) && $_GET['id'] !== null) {
                         <input type="hidden" name="id" value="<?php echo $idQuestao; ?>">
                         <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja deletar esta questão?')">Deletar Questão</button>
                     </form>
+                    <form class="d-inline">
+                    <a href="javascript:history.back()" class="btn btn-secondary">Voltar</a>
+                    </form>
                 </div>
             </div>
             </div>
