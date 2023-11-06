@@ -11,7 +11,6 @@ if ($conn->connect_error) {
 if (isset($_GET['id']) && $_GET['id'] !== null) {
     $idQuestao = $_GET['id'];
 
-    // Consulta para obter os detalhes da questão com base no ID
     $sql = "SELECT Questao.ID_Questao, Questao.Titulo, Categoria.Tipo, Questao.Pontuacao, Questao.Descricao, Questao.Descricao_Input, Questao.Descricao_Output 
             FROM Questao 
             INNER JOIN Categoria ON Questao.fk_Categoria_ID = Categoria.ID_Categoria 
@@ -57,6 +56,7 @@ if (isset($_GET['id']) && $_GET['id'] !== null) {
             <?php include "../php/navbar.php" ?>
 
             <!-- Main Section -->
+            <div class="container mt-5" id="questao-<?php echo $idQuestao; ?>">
             <div class="container mt-5">
                 <h1 class="mb-3"><?php echo $questaoDetalhes['Titulo']; ?></h1>
                 <hr>
@@ -72,13 +72,17 @@ if (isset($_GET['id']) && $_GET['id'] !== null) {
 
                 <h5>Output</h5>
                 <pre><?php echo $questaoDetalhes['Descricao_Output']; ?></pre>
-
-                <button type="button" class="btn btn-primary">Submeter Solução</button>
-
-                <form action="../php/delete_question.php" method="post">
-                <input type="hidden" name="id" value="<?php echo $idQuestao; ?>">
-                <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja deletar esta questão?')">Deletar Questão</button>
-            </form>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-primary mr-2">Submeter Solução</button>
+                    <form action="update_question.php" method="post" class="d-inline">
+                    <a href="update_question.php?id=<?php echo $idQuestao; ?>" class="btn btn-warning">Editar Questão</a>
+                    </form>
+                    <form action="../php/delete_question.php" method="post" class="d-inline">
+                        <input type="hidden" name="id" value="<?php echo $idQuestao; ?>">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja deletar esta questão?')">Deletar Questão</button>
+                    </form>
+                </div>
+            </div>
             </div>
 
             <!-- Footer -->
