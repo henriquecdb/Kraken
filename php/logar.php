@@ -22,11 +22,19 @@ if ($conn->connect_error) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "SELECT Nome_Aluno FROM Aluno WHERE Email='$email' AND Senha='$senha'";
+$sql = "SELECT Nome_Aluno, Email FROM Aluno WHERE Email='$email' AND Senha='$senha'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    header("Location: ../pages/page.php");
+    while($user = $result->fetch_assoc()) {
+        $admin = strcmp("@cefetmg.br", strstr($user['Email'], "@cefetmg.br"));
+    
+        if($admin == 0) {
+            header("Location: ../admin_pages/page.php");
+        } else {
+            header("Location: ../pages/page.php");
+        }
+    }
 } else {
     header('Location: ../pages/login.php?erroLogin=1');
 }
