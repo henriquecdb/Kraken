@@ -11,11 +11,10 @@ if ($conn->connect_error) {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
     $idQuestao = $_POST['id'];
-
-    // Execute a consulta para deletar a questão
     $sqlDelete = "DELETE FROM Questao WHERE ID_Questao = $idQuestao";
     if ($conn->query($sqlDelete) === TRUE) {
-        echo "Questão deletada com sucesso!";
+        header("Location: ../pages/problemset.php");
+        exit;    
     } else {
         echo "Erro ao deletar a questão: " . $conn->error;
     }

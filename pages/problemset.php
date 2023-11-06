@@ -28,8 +28,6 @@
         <option value="Matemática">Matemática</option>
         <!-- Adicione outras opções de categoria aqui -->
       </select>
-
-      <!-- Campo buscar por nome -->
       <label for="nomeQuestao" class="me-2">Buscar por Nome:</label>
       <input type="text" name="nomeQuestao" id="nomeQuestao" class="form-control me-2" placeholder="Digite o nome da questão">
 
@@ -54,7 +52,9 @@
         <?php include "../php/problemset.php" ?>
       </tbody>
     </table>
-    <button type="button" class="btn btn-primary">Cadastrar Questão</button>
+    <div class="container mt-3">
+    <a href="create_question.php" class="btn btn-success">Cadastrar Nova Questão</a>
+</div>
   </div>
  
   <!-- footer -->
