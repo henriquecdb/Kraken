@@ -36,7 +36,9 @@
 
         <!-- test cards -->
         <div class="container row mx-auto">
-          <div class="col-xxl-4 mb-1">
+
+        <?php include "../php/category_cards.php" ?>
+          <!-- <div class="col-xxl-4 mb-1">
             <div class="card" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Data Structure</h5>
@@ -116,6 +118,8 @@
             </div>
           </div>
         </div>
+
+-->
 
         <hr class="col-3 col-md-2 mb-5" />
 
