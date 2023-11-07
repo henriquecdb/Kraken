@@ -45,7 +45,7 @@ if ($result->num_rows > 0) {
             </td>
             <td><?php echo $questao['Tipo']; ?> </td>
             <td><?php echo $questao['Pontuacao']; ?> </td>
-            <td>Fácil</td>
+            <td><?php echo categorizarDificuldade($questao['Pontuacao']); ?></td>
         </tr>
         <?php
     }
@@ -54,4 +54,13 @@ if ($result->num_rows > 0) {
 }
 
 $conn->close();
+function categorizarDificuldade($pontuacao) {
+    if ($pontuacao < 20) {
+        return "Fácil";
+    } elseif ($pontuacao >= 20 && $pontuacao <= 50) {
+        return "Média";
+    } else {
+        return "Difícil";
+    }
+}
 ?>
