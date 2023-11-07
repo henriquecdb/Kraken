@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             WHERE ID_Questao = $idQuestao";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: ../pages/unic.php?id=$idQuestao");
+        header("Location: ../admin_pages/problem.php?id=$idQuestao");
         exit();
     } else {
         echo "Erro ao atualizar a questão: " . $conn->error;

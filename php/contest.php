@@ -28,7 +28,10 @@ if ($result->num_rows > 0) {
         ?>
         <tr>
             <td><?php echo $competicao['ID_Competicao']; ?></td>
-            <td><?php echo $competicao['Nome_Competicao']; ?></td>
+            <td><!-- mude o href pra pagina desejada, ja está passando com o id, e na pagina
+        de .php, use o problem.php como referencia pra pegar o id -->
+            <a href="comp.php?id=<?php echo $competicao['ID_Competicao']; ?>">
+            <?php echo $competicao['Nome_Competicao']; ?></td>
             <td><?php echo $competicao['Data_Inicio']; ?></td>
             <td><?php echo $duration->format('%a dias %H horas'); ?></td>
             <td>Oktoplus</td>
