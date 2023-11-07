@@ -1,0 +1,46 @@
+Diagrama casos de uso
+
+Atores: Aluno, Adminstrador, Sistema
+Casos de uso do Aluno:
+    Fazer cadastro
+    Fazer login
+
+    Acessar questões
+    Responder questões
+    Buscar questões
+
+    Acessar competições
+    Inscrever em competições
+    Buscar competições
+
+    Acessar ranking do usuário
+    Acessar ranking da equipe
+
+
+Casos de uso do Administrador:
+    Fazer cadastro
+    Fazer login
+
+    Acessar questões
+    Buscar questões
+    Cadastrar questões
+    Editar questões
+    Remover questões
+    Acessar submissões de usuários
+
+    Acessar competições
+    Buscar competições
+    Criar competições
+    Editar competições
+    Remover competições
+
+    Acessar ranking dos usuários
+    Acessar ranking das equipes
+
+
+Casos de uso do Sistema:
+    Receber as submissões dos usuários
+    Corrigir as submissões dos usuários
+    Enviar resposta da correção pros usuários
+    Atualizar o ranking dos usuários
+    Atualizar o ranking das equipes
