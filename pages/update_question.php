@@ -61,46 +61,16 @@ if (isset($_GET['id']) && $_GET['id'] !== null) {
                     </div>
                     <div class="mb-3">
                         <label for="categoria" class="form-label">Categoria (ID):</label>
-                        <small>Exemplos:</small>
-                        <table class="table table-sm table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Tipo</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>0</td>
-                                    <td>Iniciante</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Lógica</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Grafos</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Estrutura de Dados</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>String</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>SQL</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>Matemática</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <input type="number" class="form-control" id="categoria" name="categoria" value="<?php echo $questaoDetalhes['fk_Categoria_ID']; ?>" required>
+                        <select class="form-select" id="categoria" name="categoria" aria-label="Default select example" required>
+                            <option value="" disabled>Selecione a categoria</option>
+                            <?php
+                            $categorias = ["Iniciante", "Lógica", "Grafos", "Estrutura de Dados", "String", "SQL", "Matemática"];
+                            foreach ($categorias as $index => $categoria) {
+                                $selected = ($questaoDetalhes['fk_Categoria_ID'] == $index) ? 'selected' : '';
+                                echo "<option value=\"$index\" $selected>$categoria</option>";
+                            }
+                            ?>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="descricao_input" class="form-label">Descrição de Entrada:</label>
