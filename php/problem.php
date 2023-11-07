@@ -45,13 +45,6 @@ if (isset($_GET['id']) && $_GET['id'] !== null) {
         <pre><?php echo $questaoDetalhes['Descricao_Output']; ?></pre>
         <div class="mb-3">
             <button type="button" class="btn btn-primary mr-2">Submeter Solução</button>
-            <form action="update_question.php" method="post" class="d-inline">
-            <a href="update_question.php?id=<?php echo $idQuestao; ?>" class="btn btn-warning">Editar Questão</a>
-            </form>
-            <form action="../php/delete_question.php" method="post" class="d-inline">
-                <input type="hidden" name="id" value="<?php echo $idQuestao; ?>">
-                <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja deletar esta questão?')">Deletar Questão</button>
-            </form>
             <form class="d-inline">
             <a href="javascript:history.back()" class="btn btn-secondary">Voltar</a>
             </form>

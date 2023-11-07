@@ -52,9 +52,6 @@
         <?php include "../php/problemset.php" ?>
       </tbody>
     </table>
-    <div class="container mt-3">
-    <a href="create_question.php" class="btn btn-success">Cadastrar Nova Questão</a>
-</div>
   </div>
  
   <!-- footer -->
