@@ -55,9 +55,9 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 function categorizarDificuldade($pontuacao) {
-    if ($pontuacao < 20) {
+    if ($pontuacao <= 20) {
         return "Fácil";
-    } elseif ($pontuacao >= 20 && $pontuacao <= 50) {
+    } elseif ($pontuacao > 20 && $pontuacao <= 50) {
         return "Média";
     } else {
         return "Difícil";
