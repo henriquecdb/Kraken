@@ -18,10 +18,6 @@
         <h2>Cadastro de Nova Questão</h2>
         <form action="../php/create_question.php" method="post">
             <div class="mb-3">
-                <label for="id_questao" class="form-label">ID da Questão:</label>
-                <input type="number" class="form-control" id="id_questao" name="id_questao" required>
-            </div>
-            <div class="mb-3">
                 <label for="titulo" class="form-label">Título:</label>
                 <input type="text" class="form-control" id="titulo" name="titulo" required>
             </div>

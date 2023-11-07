@@ -10,7 +10,6 @@ if ($conn->connect_error) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $idQuestao = $_POST['id_questao'];
     $titulo = $_POST['titulo'];
     $descricao = $_POST['descricao'];
     $pontuacao = $_POST['pontuacao'];
@@ -18,11 +17,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $descricaoInput = $_POST['descricao_input'];
     $descricaoOutput = $_POST['descricao_output'];
 
-    $sql = "INSERT INTO Questao (ID_Questao, Titulo, Descricao, Pontuacao, fk_Categoria_ID, Descricao_Input, Descricao_Output)
-            VALUES ($idQuestao, '$titulo', '$descricao', $pontuacao, $categoria, '$descricaoInput', '$descricaoOutput')";
+    $sql = "INSERT INTO Questao (Titulo, Descricao, Pontuacao, fk_Categoria_ID, Descricao_Input, Descricao_Output)
+            VALUES ('$titulo', '$descricao', $pontuacao, $categoria, '$descricaoInput', '$descricaoOutput')";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: ../pages/problemset.php");
+        header("Location: ../admin_pages/problemset.php");
         exit(); 
     } else {
         echo "Erro ao cadastrar a questão: " . $conn->error;
