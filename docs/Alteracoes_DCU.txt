@@ -1,6 +1,6 @@
 Diagrama casos de uso
 
-Atores: Aluno, Adminstrador, Sistema
+Atores: Aluno, Administrador, Sistema
 Casos de uso do Aluno:
     Fazer cadastro
     Fazer login
@@ -42,5 +42,3 @@ Casos de uso do Sistema:
     Receber as submissões dos usuários
     Corrigir as submissões dos usuários
     Enviar resposta da correção pros usuários
-    Atualizar o ranking dos usuários
-    Atualizar o ranking das equipes
