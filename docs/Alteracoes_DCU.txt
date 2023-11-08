@@ -13,8 +13,8 @@ Casos de uso do Aluno:
     Inscrever em competições
     Buscar competições
 
-    Acessar ranking do usuário
-    Acessar ranking da equipe
+    Acessar ranking dos usuários
+    Acessar ranking das equipes
 
 
 Casos de uso do Administrador:
