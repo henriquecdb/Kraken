@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <?php include "../php/navbar.php" ?>
+    <?php include "../controller/navbar.php" ?>
 
     <!-- Main Section -->
     <div class="d-flex justify-content-center">
@@ -27,7 +27,7 @@
     </div>
 
     <!-- footer -->
-    <?php include "../php/footer.php" ?>
+    <?php include "../controller/footer.php" ?>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

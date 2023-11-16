@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kraken</title>
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../../styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -26,7 +26,7 @@
     <h2>Bem-vindo ao KRAKEN</h2>
     <div class="container" id="container">
       <div class="form-container sign-up-container">
-        <form action="../php/cadastrar.php" method="post">
+        <form action="../controller/cadastrar.php" method="post">
           <h1>Criar conta</h1>
           <span>Use o e-mail para se cadastrar</span>
           <input type="text" placeholder="Name" name="nameCadastro" id="nameCadastro" />
@@ -37,7 +37,7 @@
       </div>
 
       <div class="form-container sign-in-container">
-        <form action="../php/logar.php" method="post">
+        <form action="../controller/logar.php" method="post">
           <h1>Entrar</h1>
           <span>Use sua conta</span>
           <input type="email" placeholder="Email" name="emailLogin" id="emailLogin" />
