@@ -71,6 +71,6 @@
     <footer>
       <p>Created by <a href="https://github.com/henriquecdb/Kraken">Kraken</a></p>
     </footer>
-    <script src="../js/scripts.js"></script>
+    <script src="../../js/scripts.js"></script>
   </body>
 </html>
