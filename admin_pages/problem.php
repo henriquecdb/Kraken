@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <?php include "../php/navbar.php" ?>
+    <?php include "../apps/controller/navbar.php" ?>
     <?php
     $servername = "108.179.253.195";
     $username = "proje500_ralves";
@@ -75,7 +75,7 @@
                 <form action="update_question.php" method="post" class="d-inline">
                 <a href="update_question.php?id=<?php echo $idQuestao; ?>" class="btn btn-warning">Editar Questão</a>
                 </form>
-                <form action="../php/delete_question.php" method="post" class="d-inline">
+                <form action="../apps/controller/delete_question.php" method="post" class="d-inline">
                     <input type="hidden" name="id" value="<?php echo $idQuestao; ?>">
                     <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja deletar esta questão?')">Deletar Questão</button>
                 </form>
@@ -96,7 +96,7 @@
     $conn->close();
     ?>
 
-    <?php include "../php/footer.php" ?>
+    <?php include "../apps/controller/footer.php" ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

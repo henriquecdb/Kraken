@@ -11,12 +11,12 @@
 
 <body>
     <!-- Navbar -->
-    <?php include "../php/navbar.php" ?>
+    <?php include "../apps/controller/navbar.php" ?>
 
     <!-- Main Section -->
     <div class="container mt-5">
         <h2>Cadastro de Nova Questão</h2>
-        <form action="../php/create_question.php" method="post">
+        <form action="../apps/controller/create_question.php" method="post">
             <div class="mb-3">
                 <label for="titulo" class="form-label">Título:</label>
                 <input type="text" class="form-control" id="titulo" name="titulo" required>
@@ -54,7 +54,7 @@
     </div>
 
     <!-- Footer -->
-    <?php include "../php/footer.php" ?>
+    <?php include "../apps/controller/footer.php" ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

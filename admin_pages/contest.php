@@ -14,7 +14,7 @@
     <!-- <link rel="stylesheet" href="styles/aux.css" /> -->
   </head>
   <body>
-    <?php include "../php/navbar.php" ?>
+    <?php include "../apps/controller/navbar.php" ?>
     
     <div class="container mt-5">
       <div class="row">
@@ -30,7 +30,7 @@
               </tr>
             </thead>
             <tbody>
-              <?php include "../php/contest.php" ?>
+              <?php include "../apps/controller/contest.php" ?>
               <!-- Adicione mais linhas conforme necessário 
               <tr>
                 <th scope="row">1</th>
@@ -46,7 +46,7 @@
     </div>
 
     <!-- footer -->
-    <?php include "../php/footer.php" ?>
+    <?php include "../apps/controller/footer.php" ?>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

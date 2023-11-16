@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <?php include "../php/navbar.php" ?>
+    <?php include "../apps/controller/navbar.php" ?>
 
     <!-- section -->
     <div class="col-lg-8 mx-auto p-4 py-md-5">
@@ -37,7 +37,7 @@
         <!-- test cards -->
         <div class="container row mx-auto">
 
-        <?php include "../php/category_cards.php" ?>
+        <?php include "../apps/controller/category_cards.php" ?>
           <!-- <div class="col-xxl-4 mb-1">
             <div class="card" style="width: 18rem">
               <div class="card-body">
@@ -256,7 +256,7 @@
     </div>
 
     <!-- footer -->
-    <?php include "../php/footer.php" ?>
+    <?php include "../apps/controller/footer.php" ?>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
