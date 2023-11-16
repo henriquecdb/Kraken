@@ -30,13 +30,13 @@ if ($result->num_rows > 0) {
         $admin = strcmp("@cefetmg.br", strstr($user['Email'], "@cefetmg.br"));
     
         if($admin == 0) {
-            header("Location: ../admin_pages/page.php");
+            header("Location: ../../admin_pages/page.php");
         } else {
-            header("Location: ../pages/page.php");
+            header("Location: ../views/page.php");
         }
     }
 } else {
-    header('Location: ../pages/login.php?erroLogin=1');
+    header('Location: ../views/login.php?erroLogin=1');
 }
 
 $conn->close();

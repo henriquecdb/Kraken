@@ -8,7 +8,7 @@ $senha = $_POST["passwdCadastro"];
 if (empty($nome) || empty($email) || empty($senha)) {
     $_SESSION['message'] = "Todos os campos devem ser preenchidos!";
     $_SESSION['msg_type'] = "failure";
-    header("Location: ../pages/login.php");
+    header("Location: ../views/login.php");
     exit();
 }
 
@@ -32,12 +32,12 @@ $conn->close();
 if ($result === TRUE) {
     $_SESSION['message'] = "Cadastro realizado com sucesso!";
     $_SESSION['msg_type'] = "success";
-    header("Location: ../pages/login.php");
+    header("Location: ../views/login.php");
     exit();
 } else {
     $_SESSION['message'] = "Error: " . $sql . "<br>" . $conn->error;
     $_SESSION['msg_type'] = "failure";
-    header("Location: ../pages/login.php");
+    header("Location: ../views/login.php");
     exit();
 }
 ?>

@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             VALUES ('$titulo', '$descricao', $pontuacao, $categoria, '$descricaoInput', '$descricaoOutput')";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: ../admin_pages/problemset.php");
+        header("Location: ../../admin_pages/problemset.php");
         exit(); 
     } else {
         echo "Erro ao cadastrar a questão: " . $conn->error;

@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
                 <h5 class="card-title"> <?php echo $categoria['Tipo']; ?> </h5>
                 <p class="card-text"> 
                 </p>
-                <a href="../pages/problemset.php?categoria=<?php echo $categoria['Tipo']; ?>">
+                <a href="../views/problemset.php?categoria=<?php echo $categoria['Tipo']; ?>">
                     <?php echo $categoria['Tipo']; 
                     ?>
                 </a>
