@@ -10,17 +10,9 @@ if (empty($email) || empty($senha)) {
     exit();
 }
 
-$servername = "108.179.253.195";
-$username = "proje500_ralves";
-$password = "5cYPggNpnK36";
-$dbname = "proje500_G42023";
+require('sql_connection.php');
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-  die("Connection failed: " . mysqli_connect_error());
-}
+$conn = connect_db();
 
 $sql = "SELECT Nome_Aluno, Email FROM Aluno WHERE Email='$email' AND Senha='$senha'";
 $result = $conn->query($sql);

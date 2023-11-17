@@ -1,14 +1,9 @@
 <?php
-$servername = "108.179.253.195";
-$username = "proje500_ralves";
-$password = "5cYPggNpnK36";
-$dbname = "proje500_G42023";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+require('sql_connection.php');
 
-if ($conn->connect_error) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+$conn = connect_db();
+
 if (isset($_GET['id']) && $_GET['id'] !== null) {
     $idQuestao = $_GET['id'];
 

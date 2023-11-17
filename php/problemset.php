@@ -1,16 +1,8 @@
 <?php
-$servername = "108.179.253.195";
-$username = "proje500_ralves";
-$password = "5cYPggNpnK36";
-$dbname = "proje500_G42023";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+require('sql_connection.php');
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+$conn = connect_db();
 
 // Filtro por categoria
 $whereClause = "";
