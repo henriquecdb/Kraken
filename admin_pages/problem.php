@@ -31,10 +31,10 @@
     <?php include "../php/navbar.php" ?>
     <?php
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "X1598753";
-    $dbname = "software";
+  $servername = "projetos.linceonline.com.br";
+  $username = "projetos_kraken";
+  $password = "ppbgc}F(xzao";
+  $dbname = "projetos_kraken"; 
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
