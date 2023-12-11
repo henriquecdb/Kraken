@@ -41,6 +41,9 @@
               </tr> 
             </tbody>
           </table>
+          <div class="container mt-3">
+    <a href="create_contest.php" class="btn btn-success">Cadastrar Competição</a>
+</div>
         </div>
       </div>
     </div>
