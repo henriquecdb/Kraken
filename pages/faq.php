@@ -28,63 +28,48 @@
             <section>
                <h3 class="text-center mb-4 pb-2 text-primary fw-bold mt-3">FAQ</h3>
                <p class="text-center mb-5">
-                  Find the answers for the most frequently asked questions below
+                  Encontre abaixo as respostas para as perguntas mais frequentes sobre a plataforma.
                </p>
                <div class="row">
                   <div class="col-md-6 col-lg-4 mb-4">
-                     <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
-                        question?
+                     <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i>Entrei no curso agora, posso participar?
                      </h6>
                      <p>
-                        <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
-                        your
-                        safety and
-                        security. All billing information is stored on our payment processing partner.
+                        <strong><u>Com certeza!</u></strong> A ideia principal do projeto e da plataforma é capacitar os alunos interessados em competições de programação.
                      </p>
                   </div>
                   <div class="col-md-6 col-lg-4 mb-4">
-                     <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
-                        that
-                        is longer then the previous one?
+                     <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> É possível aprimorar minhas habilidades com programação?
                      </h6>
                      <p>
-                        <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
-                        your
-                        account. Once the subscription is
-                        cancelled, you will not be charged next month.
+                        <strong><u>Sim, é possível!</u></strong> O objetivo dos problemas de programação é forçar o aluno a pensar em diferentes estratégias e como empregar corretamente, por exemplo, as estruturas de dados.
                      </p>
                   </div>
                   <div class="col-md-6 col-lg-4 mb-4">
-                     <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
-                        question?
+                     <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> O que é programação competitiva?
                      </h6>
                      <p>
-                        Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
-                        account at any time with no further obligation.
+                        A programação competitiva é um esporte mental que consiste em resolver problemas de programação algorítmica sob restrições de tempo. Os participantes devem escrever códigos que sejam não apenas corretos, mas também eficientes.
                      </p>
                   </div>
                   <div class="col-md-6 col-lg-4 mb-4">
-                     <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
-                        question?
+                     <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> Como posso começar na programação competitiva?
                      </h6>
                      <p>
-                        Yes. Go to the billing section of your dashboard and update your payment information.
+                        Para começar, você pode resolver as questões básicas da plataforma ou acompanhar os guias que indicamos na página principal. Além disso, aprender estruturas de dados e algoritmos é fundamental para o sucesso.
                      </p>
                   </div>
                   <div class="col-md-6 col-lg-4 mb-4">
-                     <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
-                        question?
+                     <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> Qual a diferença entre maratonas de programação e Hackathon?
                      </h6>
-                     <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
-                        reason.
+                     <p>Enquanto as Hackathons focam no desenvolvimento colaborativo de projetos e inovação, as maratonas de programação se concentram na resolução individual ou em equipe de problemas algorítmicos sob pressão de tempo.
                      </p>
                   </div>
                   <div class="col-md-6 col-lg-4 mb-4">
-                     <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
-                        question that is longer than usual
+                     <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Como faço para entrar na Oktoplus?
                      </h6>
                      <p>
-                        Of course! We’re happy to offer a free plan to anyone who wants to try our service.
+                        O ingresso é feito atráves de um processo seletivo com o objetivode entender o perfil dos alunos interessados. Fique ligado nas redes sociais e no site do CEFET.
                      </p>
                   </div>
                </div>

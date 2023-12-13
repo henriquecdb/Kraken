@@ -20,15 +20,14 @@
     <!-- section -->
     <div class="col-lg-8 mx-auto p-4 py-md-5">
       <main>
-        <h1 class="text-body-emphasis">Get started with Kraken</h1>
+        <h1 class="text-body-emphasis">Bem-vindo(a) ao Kraken!</h1>
         <p class="fs-5 col-md-8">
-          Quickly and easily get started with Kraken's exercises with a
-          collection of algorithm programming practice problems.
+          Aqui começa a sua jornada na programação competitiva com diversos problemas categorizados com diferentes dificuldades.
         </p>
 
         <div class="mb-5">
-          <a href="/docs/5.3/examples/" class="btn btn-primary btn-lg px-4"
-            >Get start</a
+          <a href="https://noic.com.br/materiais-informatica/roteiro-de-estudos/" class="btn btn-primary btn-lg px-4"
+            >Get Started</a
           >
         </div>
 
@@ -125,128 +124,114 @@
 
         <div class="row g-5">
           <div class="col-md-6">
-            <h2 class="text-body-emphasis">Starter projects</h2>
+            <h2 class="text-body-emphasis">Juízes Online</h2>
             <p>
-              Ready to go beyond the starter template? Check out these open
-              source projects that you can quickly duplicate to a new GitHub
-              repository.
+              Os juízes online são uma parte essencial das plataformas de programação competitiva. Eles atuam como uma espinha dorsal para as submissões de código, permitindo que os usuários compilam e executem seus códigos para verificar os casos de teste.
             </p>
             <ul class="list-unstyled ps-0">
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="https://github.com/twbs/examples/tree/main/icons-font"
+                  href="https://www.beecrowd.com.br/judge/en/login"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg class="bi" width="16" height="16">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap npm starter
+                  Beecrowd
                 </a>
               </li>
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="https://github.com/twbs/examples/tree/main/parcel"
+                  href="https://neps.academy/br"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg class="bi" width="16" height="16">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Parcel starter
+                  Neps Academy
                 </a>
               </li>
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="https://github.com/twbs/examples/tree/main/vite"
+                  href="https://br.spoj.com/"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg class="bi" width="16" height="16">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Vite starter
+                  SPOJ Brasil
                 </a>
               </li>
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="https://github.com/twbs/examples/tree/main/webpack"
+                  href="https://codeforces.com/"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg class="bi" width="16" height="16">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Webpack starter
+                  Codeforces
                 </a>
               </li>
             </ul>
           </div>
 
           <div class="col-md-6">
-            <h2 class="text-body-emphasis">Guides</h2>
+            <h2 class="text-body-emphasis">Guias</h2>
             <p>
-              Read more detailed instructions and documentation on using or
-              contributing to Bootstrap.
+              Conheça as principais competições de MG e do Brasil além dos melhores roteiros de estudo.
             </p>
             <ul class="list-unstyled ps-0">
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="/docs/5.3/getting-started/introduction/"
+                  href="https://noic.com.br/materiais-informatica/roteiro-de-estudos/"
                 >
                   <svg class="bi" width="16" height="16">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap quick start guide
+                  NOIC - Roteiro de Estudos
                 </a>
               </li>
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="/docs/5.3/getting-started/webpack/"
+                  href="Maratona SBC de Programação"
                 >
                   <svg class="bi" width="16" height="16">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Webpack guide
+                  Maratona SBC de Programação
                 </a>
               </li>
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="/docs/5.3/getting-started/parcel/"
+                  href="https://mineira.sbc.org.br/"
                 >
                   <svg class="bi" width="16" height="16">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Parcel guide
+                  Maratona Mineira de Programação
                 </a>
               </li>
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="/docs/5.3/getting-started/vite/"
+                  href="https://codeforces.com/blog/entry/116762"
                 >
                   <svg class="bi" width="16" height="16">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Vite guide
-                </a>
-              </li>
-              <li>
-                <a
-                  class="icon-link mb-1"
-                  href="/docs/5.3/getting-started/contribute/"
-                >
-                  <svg class="bi" width="16" height="16">
-                    <use xlink:href="#arrow-right-circle"></use>
-                  </svg>
-                  Contributing to Bootstrap
+                  A Guide to Solving Questions on Codeforces
                 </a>
               </li>
             </ul>

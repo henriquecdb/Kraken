@@ -21,7 +21,8 @@
          <div class="accordion w-50" id="basicAccordion">
             <section class="text-center mt-3">
                 <h2 class="mb-4 pb-2 fw-bold">Suporte</h2>
-                <p>Se você precisar de ajuda ou tiver alguma dúvida sobre o Kraken, entre em contato conosco através do nosso formulário de contato ou envie um e-mail para suporte@kraken.com.</p>
+                <p>Está tendo problemas com a plataforma? Estamos aqui para ajudar. Nossa equipe de suporte está pronta para responder às suas perguntas e resolver quaisquer problemas que você possa ter.</p>
+                <p>Se você precisar de ajuda ou tiver alguma dúvida sobre o Kraken, entre em contato conosco através do nosso e-mail: suporte@kraken.com.</p>
             </section>
         </div>
     </div>
