@@ -15,8 +15,8 @@ if (empty($nome) || empty($email) || empty($senha)) {
 require('sql_connection.php');
 
 $conn = connect_db();
-
-$sql = "INSERT INTO Aluno (Nome_Aluno, Email, Ranking, Senha) VALUES ('$nome', '$email', 0, '$senha')";
+$criptografada = base64_encode($senha);
+$sql = "INSERT INTO Aluno (Nome_Aluno, Email, Ranking, Senha) VALUES ('$nome', '$email', 0, '$criptografada')";
 $result = $conn->query($sql);
 $conn->close();
 
