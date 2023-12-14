@@ -1,7 +1,6 @@
 <?php
 session_start();
 if (isset($_GET['id']) && !empty($_GET['id'])) {
-    echo "ID COMPETICAO = ".$_GET['id'];
     $_SESSION['idComp'] = $_GET['id'];
 }
 ?>
